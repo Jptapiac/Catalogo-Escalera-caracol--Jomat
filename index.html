@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escaleras metálicas de calidad. Diseño moderno y resistente. Ubicado en Chiguayante, Biobío">
+    <title>Escaleras Metálicas - Jomat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="brand">ESCALERAS METÁLICAS JOMAT</h1>
+            <p class="tagline">Diseño y resistencia en cada escalera</p>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="container">
+        
+        <!-- SECCIÓN DE GALERÍA -->
+        <section class="gallery-section">
+            <div class="gallery-container">
+                <!-- Imagen principal -->
+                <div class="main-image">
+                    <button class="arrow arrow-left" aria-label="Imagen anterior" onclick="prevImage()">❮</button>
+                    <img id="mainImage" src="images/escalera1.jpg" alt="Escalera metálica principal" class="main-img">
+                    <button class="arrow arrow-right" aria-label="Siguiente imagen" onclick="nextImage()">❯</button>
+                    <p class="image-counter"><span id="currentImageNum">1</span> / <span id="totalImages">0</span></p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE INFORMACIÓN DEL PRODUCTO -->
+        <section class="product-section">
+            
+            <!-- NOMBRE Y ESPECIFICACIONES -->
+            <div class="product-header">
+                <h2>Escalera Metálica </h2>
+                <div class="specs-badge">
+                    <span class="spec-item">
+                        <strong>Color:</strong> Negro
+                    </span>
+                    <span class="spec-item">
+                        <strong>Tipo:</strong> Metal estructurado
+                    </span>
+                    <span class="spec-item">
+                        <strong>Madera:</strong> Terciado
+                    </span>
+                </div>
+            </div>
+
+            <!-- DESCRIPCIÓN -->
+            <div class="description">
+                <h3>Acerca de Nuestras Escaleras</h3>
+                <p>
+                    Las escaleras se fabrican según el espacio disponible. Realizamos una evaluación del lugar y diseñamos una escalera que resulte lo más cómoda y accesible posible para tu hogar o negocio.
+                </p>
+                <ul class="features-list">
+                    <li>✓ Diseño personalizado según tu espacio</li>
+                    <li>✓ Evaluación profesional del área</li>
+                    <li>✓ Máxima comodidad y accesibilidad</li>
+                    <li>✓ Valor fijo para todos los diseños</li>
+                    <li>✓ Pago único al finalizar instalación</li>
+                    <li>✓ Instalación incluida en el precio</li>
+                </ul>
+            </div>
+
+            <!-- PRECIO DESTACADO -->
+            <div class="price-section">
+                <p class="price-label">Precios</p>
+                <p class="price">$320.000 CLP</p>
+                <p class="price-detail">Hasta 12 peldaños (incluye materiales e instalación)</p>
+                <p class="price-additional">Peldaño adicional: $30.000 CLP</p>
+                <p class="price-note">💳 Pago al momento de recibir el trabajo</p>
+            </div>
+
+            <!-- BOTONES DE ACCIÓN -->
+            <div class="action-buttons">
+                <a href="https://wa.me/569507849?text=Hola%20Jomat%20%F0%9F%91%8B%0AMe%20interesa%20conocer%20m%C3%A1s%20sobre%20las%20escaleras%20met%C3%A1licas.%20%F0%9F%AA%9C" 
+                   target="_blank" class="btn btn-whatsapp">
+                    <svg class="icon icon-whatsapp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="#FFFFFF" d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h2.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.27 1.11l-2.2 2.2z"/>
+                    </svg>
+                    <span>Contactar por WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- UBICACIÓN -->
+            <div class="location-section">
+                <h3>Ubicación</h3>
+                <div class="location-info">
+                    <p class="location-icon">
+                        <svg class="icon icon-location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+                        </svg>
+                    </p>
+                    <div class="location-details">
+                        <p><strong>Chiguayante, Biobío</strong></p>
+                        <p>Región del Biobío, Chile</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Escaleras Metálicas Jomat. Todos los derechos reservados.</p>
+            <p>Chiguayante, Biobío | Teléfono: +56 9 50784970</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
